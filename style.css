@@ -1,0 +1,44 @@
+body
+{
+    background-color: black;
+    text-align: center;
+    margin-top: 15%;
+}
+label, p
+{
+    color: white;
+    font-size: 20px;
+}
+h1
+{
+    color: white;
+    font-size: 35px;
+    text-decoration: underline;
+}
+button
+{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 17px;
+
+}
+input
+{
+    border: 2px solid white;
+    padding: 5px;
+}
+#result
+{
+    color: red;
+    font-size: 30px;
+}
+#result:before
+{
+    content: '$';
+}
+footer
+{
+    color: white;
+}
